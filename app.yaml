@@ -1,0 +1,21 @@
+application: stox
+version: 1
+runtime: php55
+api_version: 1
+handlers:
+- url: /stox\.html
+  static_files: stox.html
+  upload: stox.html
+- url: /css
+  static_dir: css
+- url: /js
+  static_dir: js
+- url: /fonts
+  static_dir: fonts
+- url: /images
+  static_dir: images
+- url: /favicon\.ico
+  static_files: images/favicon\.ico
+  upload: images/favicon.ico
+- url: /.*
+  script: index.php
