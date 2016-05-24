@@ -7,6 +7,8 @@ A responsive web app to search the stock market for your favorite stock (http://
 3. View fluctuating price in real time using Auto-refresh
 4. Have more control over historical charts - 1 week, 1 month, 3 months, 6 months, 1 year, all time
 5. Stay up-to-date with stock-specific news feed
+6. Share your favorite stock on Facebook
+7. Favorite stocks for easy viewing on main page
 
 # Screens
 ### Search for your stock using the autocomplete input field, View favorites
